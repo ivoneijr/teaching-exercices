@@ -2,35 +2,35 @@
 
 Imagine que você está administrando um clube de skate e deseja manter um registro dos skatistas e suas manobras. Para isso, você decidirá criar uma classe em JavaScript.
 
-# Instruções
+## Instruções
 
-## Classe Skatista:
+### Classe Skatista
 
 - Crie uma classe chamada Skatista.
 - No construtor, a classe deve aceitar dois argumentos: nome e manobras (onde manobras é um array).
 - Crie um método chamado adicionarManobra que aceita uma manobra (string) e a adiciona ao array de manobras.
 - Crie um método chamado mostrarManobras que imprime todas as manobras do skatista.
 
-## Instanciação:
+### Instanciação
 
 - Instancie dois objetos da classe Skatista, cada um com um nome diferente e pelo menos uma manobra.
 
-## Chamada de funções:
+### Chamada de funções
 
 - Adicione mais manobras a um dos skatistas usando o método adicionarManobra.
 - Mostre as manobras de ambos os skatistas usando o método mostrarManobras.
 
-### Array de Skatistas:
+### Array de Skatistas
+
 - Crie um array chamado clubeSkate.
 - Adicione seus skatistas instanciados ao clubeSkate.
 
-### Callbacks:
+### Callbacks
 
 - Escreva uma função chamada apresentacao que aceita um skatista e uma função de callback. Esta função deve imprimir o nome do skatista e, em seguida, chamar a função de callback.
 - Use a função apresentacao com um skatista e passe mostrarManobras como callback.
 
-
-### Código de Início:
+### Código de Início
 
 ```javascript
 class Skatista {
@@ -46,7 +46,7 @@ class Skatista {
 // Implemente a função de apresentação e o callback aqui
 ```
 
-### Dicas:
+### Dicas
 
 - Lembre-se de que em JavaScript, as classes têm a palavra-chave constructor para inicializar um objeto.
 - Para adicionar um item a um array em JavaScript, você pode usar o método push.
